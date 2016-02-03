@@ -86,7 +86,8 @@
 				<inherited>true</inherited>
 				<configuration>
 					<classifier>
-						test</classifier>
+						test
+					</classifier>
 				</configuration>
 				<dependencies>
 				</dependencies>
