@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 public class ApplicationMain {
 	private static Logger logger = LoggerFactory.getLogger(ApplicationMain.class);
 
-	private static String APP_NAME = "app";
+	private static String APP_NAME = "我的app";
 
 	public static void main(String[] args) {
 		logger.debug("starting app：" + APP_NAME);
