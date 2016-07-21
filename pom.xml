@@ -59,8 +59,8 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-	 
-		 
+
+
 		<dependency>
 			<groupId>com.atomikos</groupId>
 			<artifactId>transactions-jdbc</artifactId>
@@ -94,6 +94,14 @@
 					<classifier>
 						test
 					</classifier>
+					<archive>
+					 	<addMavenDescriptor>false</addMavenDescriptor>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<classpathPrefix>lib/</classpathPrefix>  
+							<mainClass>com.small.sbtest.ApplicationMain</mainClass>
+						</manifest>
+					</archive>
 				</configuration>
 				<dependencies>
 				</dependencies>
