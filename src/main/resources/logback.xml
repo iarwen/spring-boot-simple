@@ -9,10 +9,10 @@
   </appender>
  
   <!-- Setting the logging level to INFO for code in net.javabeat.model -->
-  <logger name="com.small" level="info" />
+  <logger name="com.small" level="debug" />
   
   <!-- Setting the root level of logging to DEBUG -->
-  <root level="debug">
+  <root level="warn">
     <appender-ref ref="STDOUT" />
   </root>
  
