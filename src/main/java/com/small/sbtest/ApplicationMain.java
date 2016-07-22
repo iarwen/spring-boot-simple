@@ -18,6 +18,6 @@ public class ApplicationMain {
 	public static void main(String[] args) {
 		logger.debug("starting app：" + APP_NAME);
 		SpringApplication.run(ApplicationMain.class);
-		logger.debug(APP_NAME + "started success");
+		logger.debug(APP_NAME + " started success");
 	}
 }
